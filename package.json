@@ -2,11 +2,16 @@
   "name": "azPostlight-Parser",
   "version": "1.0.0",
   "description": "Wrapper of Postlight-Parser in an Azure Function",
+  "main": "src/functions/*.js",
   "scripts": {
     "start": "func start",
     "test": "echo \"No tests yet...\""
   },
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "dependencies": {
+    "@azure/functions": "^4.16.2",
     "@fboucheros/parser": "^2.2.3-fork.0",
     "uuid": "9.0.0"
   },
