@@ -1,4 +1,4 @@
-const postlight = require('@postlight/parser');
+const postlight = require('@fboucheros/parser');
 const uuid = require('uuid');
 
 module.exports = async function (context, req) {
